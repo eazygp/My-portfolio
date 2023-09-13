@@ -1,0 +1,120 @@
+.navbar {
+    background-color: #965fe4;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    font-family: "Source Code Pro", monospace;
+    display: block;
+    color: #3c00ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+   
+}
+
+
+.navbar a:hover{
+    background-color: #ffffff;
+
+}
+.barra-di-percentuale1 {
+    width: 20%;
+    height: 20px; /* Altezza della barra */
+    background-color: #ccc; /* Colore di sfondo della barra */
+    border-radius: 5px; /* Arrotonda i bordi */
+    position: relative;
+}
+.barra-di-percentuale2 {
+    width: 20%;
+    height: 20px; /* Altezza della barra */
+    background-color: #ccc; /* Colore di sfondo della barra */
+    border-radius: 5px; /* Arrotonda i bordi */
+    position: relative;
+}
+.barra-di-percentuale3 {
+    width: 20%;
+    height: 20px; /* Altezza della barra */
+    background-color: #ccc; /* Colore di sfondo della barra */
+    border-radius: 5px; /* Arrotonda i bordi */
+    position: relative;
+}
+.barra-di-percentuale4 {
+    width: 20%;
+    height: 20px; /* Altezza della barra */
+    background-color: #ccc; /* Colore di sfondo della barra */
+    border-radius: 5px; /* Arrotonda i bordi */
+    position: relative;
+}
+
+.percentuale1 {
+    text-align: center;
+    line-height: 20px; /* Centra verticalmente il testo */
+    color: #fff; /* Colore del testo */
+    font-weight: bold; /* Grassetto per il testo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%; /* Larghezza percentuale */
+    height: 100%;
+    background-color: #6200ff; /* Colore di riempimento */
+    border-radius: 5px; /* Arrotonda i bordi */
+}
+
+.percentuale2 {
+    text-align: center;
+    line-height: 20px; /* Centra verticalmente il testo */
+    color: #fff; /* Colore del testo */
+    font-weight: bold; /* Grassetto per il testo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%; /* Larghezza percentuale */
+    height: 100%;
+    background-color: #6200ff; /* Colore di riempimento */
+    border-radius: 5px; /* Arrotonda i bordi */
+}
+#InformazioniPersonali{
+    flex: 1; /* Fai espandere le sezioni in modo uniforme */
+    padding: 20px; /* Spaziatura interna */
+    border: 1px solid #ccc; /* Aggiungi una sottile bordatura per separare le sezioni */
+    background-color: #c09cf3;
+
+}
+#esperienze{
+    flex: 1; /* Fai espandere le sezioni in modo uniforme */
+    padding: 20px; /* Spaziatura interna */
+    border: 1px solid #ccc; /* Aggiungi una sottile bordatura per separare le sezioni */
+}
+.title-big{
+    font-family: "Source Code Pro", monospace; 
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color:#965fe4
+
+}
+.contenitore {
+    display: flex; /* Crea un layout flessibile */
+}
+@media screen and (max-width: 700px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+    }
+}
