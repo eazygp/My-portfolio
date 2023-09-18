@@ -13,7 +13,7 @@
 
         emailjs.send('service_e2sn59f', 'ciaosonoio', formData)
             .then(function(response) {
-                console.log('Email inviata con successo', response);
+                alert('Email inviata con successo');
             }, function(error) {
                 console.log('Errore durante l\'invio dell\'email', error);
             });
